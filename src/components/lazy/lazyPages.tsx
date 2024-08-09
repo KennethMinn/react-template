@@ -1,10 +1,3 @@
-import { lazy } from "react";
-import LazyLoad from "./LazyLoad";
+import { LazyHome } from "./pages/home";
 
-const Home = lazy(() => import("../../Home"));
-
-export const LazyHome = () => (
-  <LazyLoad>
-    <Home />
-  </LazyLoad>
-);
+export { LazyHome };
